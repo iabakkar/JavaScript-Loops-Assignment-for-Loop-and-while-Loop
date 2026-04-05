@@ -118,6 +118,18 @@
     }
 
 
+    // Task #5
+    // => Create a password checker that keeps asking the user until they enter the correct password (admin123)
+
+    let correctPassword = "admin123";
+    let userPassword = prompt("Enter Correct Password");
+
+    while (userPassword !== correctPassword) {
+        alert("Your password is incorrect. Try again.");
+        userPassword = prompt("Enter Correct Password");
+    }
+    alert("You have successfully logged in");
+
 
 </script>
 
